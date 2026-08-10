@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #1a1c1e;
+    color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    background-image: radial-gradient(#2d3238 10%, transparent 11%);
+    background-size: 20px 20px;
+}
+
+header {
+    width: 100%;
+    background-color: #111315;
+    color: #f39c12;
+    text-align: center;
+    padding: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: 4px solid #f39c12;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+main {
+    width: 100%;
+    max-width: 420px;
+    padding: 20px;
+}
+
+selection, section {
+    display: block;
+    background: #24282c;
+    border: 2px solid #3a3f45;
+    border-top: 5px solid #f39c12;
+    padding: 2.5rem 2rem;
+    border-radius: 4px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    border-bottom: 1px solid #3a3f45;
+    padding-bottom: 10px;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.campo, fieldset > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+label {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #a0a5ab;
+    letter-spacing: 0.5px;
+}
+
+input[type="email"],
+input[type="password"] {
+    background-color: #16181a;
+    border: 1px solid #484e55;
+    color: #ffffff;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border-radius: 2px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #f39c12;
+    box-shadow: 0 0 5px rgba(243, 156, 18, 0.4);
+}
+
+fieldset > div:nth-child(3) {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.2rem;
+}
+
+input[type="checkbox"] {
+    accent-color: #f39c12;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    margin-top: 0.5rem;
+    background-color: #f39c12;
+    color: #111315;
+    border: none;
+    padding: 0.85rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+button[type="submit"]:hover {
+    background-color: #e67e22;
+}
+
+button[type="submit"]:active {
+    transform: scale(0.99);
+}
+
+a {
+    color: #8a939e;
+    text-decoration: none;
+    font-size: 0.85rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #f39c12;
+    text-decoration: underline;
+}
+
+footer {
+    width: 100%;
+    background-color: #111315;
+    color: #6c757d;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.8rem;
+    border-top: 1px solid #2d3238;
+}
