@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-venv/
-env/
-.env/
-virtualenv/
-=======
 # ============================================
 # Python
 # ============================================
@@ -112,4 +106,3 @@ package-lock.json
 .classpath
 .settings/
 *.iml
->>>>>>> 2a276dd042dc69dacaf57a047bd4cafc51a0e857
